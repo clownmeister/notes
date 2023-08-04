@@ -6,8 +6,6 @@ services:
     tty: true
     container_name: ${CONTAINER_NAME_PREFIX}-node
     working_dir: /var/www
-    environment:
-      NPM_TOKEN: ${NPM_TOKEN}
     ports:
       - ${APP_IP}:${APP_PORTS}:80
     volumes:
