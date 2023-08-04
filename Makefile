@@ -1,4 +1,4 @@
-NODE = docker exec -it -w /var/www/ notes-node bash -c
+NODE = docker exec -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY -it -w /var/www/ notes-node bash -c
 
 -include .env
 
