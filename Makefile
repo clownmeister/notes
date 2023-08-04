@@ -40,7 +40,7 @@ install:
 	@$(NODE) "yarn install"
 
 start:
-	@make -s echoInfo text="Watch"
+	@make -s echoInfo text="Start"
 	@$(NODE) "yarn start"
 
 lint:
