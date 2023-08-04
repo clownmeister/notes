@@ -1,0 +1,11 @@
+{
+  "name": "clownmeister/notes",
+  "version": "1.0.0",
+  "description": "Note taking software supporting html & markdown. Main features are no software lock and free sync options.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron . --no-sandbox"
+  },
+  "author": "ClownMeister",
+  "license": "MIT"
+}

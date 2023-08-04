@@ -1,0 +1,15 @@
+.env
+.idea/
+*.log
+
+#main
+node_modules/
+dist/
+public/vendor/
+application/public/dist
+application/public/assets
+application/public/var
+
+#secret
+*.secret.*
+ftmo-order.tgz
